@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Environment variables
+.env
+.env.*
+!*.example # If you provide an example .env file
+
+# Build and temporary files
+dist/
+build/
+tmp/
+*.log
+*.pid
+*.seed
+*.swo
+*.swp
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Uploads or generated content
+uploads/
